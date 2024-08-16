@@ -26,13 +26,13 @@ Before you begin, ensure you have the following:
    cd terraform-aws-static-website
 
 ## Usage
-
+   ```bash
    terraform init
    terraform validate
    terraform plan
    terraform apply
 
 ## Cleanup
-
+   ```bash
    terraform destroy -var="bucket_name=your-unique-bucket-name"
 
