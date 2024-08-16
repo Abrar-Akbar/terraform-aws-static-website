@@ -24,16 +24,16 @@ Before you begin, ensure you have the following:
    ```bash
    git clone https://github.com/Abrar-Akbar/terraform-aws-static-website.git
    cd terraform-aws-static-website
-  ```
+  ```bash
 ## Usage
    ```bash
    terraform init
    terraform validate
    terraform plan
    terraform apply
-  ```
+  ```bash
 ## Cleanup
    ```bash
    terraform destroy -var="bucket_name=your-unique-bucket-name"
  
-  ```
+  ```bash
