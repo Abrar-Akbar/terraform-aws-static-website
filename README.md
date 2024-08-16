@@ -27,7 +27,7 @@ Before you begin, ensure you have the following:
   ```
 
 ## Usage
-
+2. **Commands**
    ```bash
    terraform init
    terraform validate
@@ -35,7 +35,7 @@ Before you begin, ensure you have the following:
    terraform apply
   ```
 ## Cleanup
-
+3. **Remove complete infra**
    ```bash
    terraform destroy -var="bucket_name=your-unique-bucket-name"
  
