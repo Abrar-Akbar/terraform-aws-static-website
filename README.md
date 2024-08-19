@@ -32,6 +32,7 @@ Before you begin, ensure you have the following:
 
    ```bash
    terraform init
+   terraform fmt
    terraform validate
    terraform plan
    terraform apply
